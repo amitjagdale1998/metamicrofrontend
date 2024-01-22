@@ -1,0 +1,32 @@
+.navbar {
+    color: white;
+    margin-left: 20%;
+    .nav-link {
+        color: white;
+        font-size: 15px;
+        font-weight: 700;
+    }
+    .nav-item {
+        justify-content: space-between !important;
+        .nav-link.active {
+            color: #d85c0e; /* Specify the active link color */
+        }
+    }
+}
+@media only screen and (max-width: 600px) {
+    .navbar {
+        margin-left: 0%;
+        justify-content: center;
+    }
+    .nav-item {
+        background-color: aliceblue;
+    }
+    .nav-link {
+        background-color: rgb(52, 15, 86);
+        text-decoration-line: underline 0.5px solid white;
+    }
+    .collapse {
+        margin: 0px;
+        padding: 0px;
+    }
+}
